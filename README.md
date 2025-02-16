@@ -1,28 +1,35 @@
-# Project: Math Quiz and Expense Manager
+# Project: Math Quiz
+
+I am very happy to share my first task, so let me explain the workflow of my project.
 
 ## Overview
 
-I am very happy to share my first task. Let me explain the workflow of my project.
-
-This Java project is a dual-functionality application built using Swing. It comprises two main modules:
-
-1. **Math Quiz Module**: Generates random math problems (addition, subtraction, or multiplication) and tests the user's arithmetic skills.
+This Java project is a simple Math Quiz application with a graphical user interface (GUI) built using Swing. The application generates random math problems and tests the user’s arithmetic skills. Users can answer the questions, receive immediate feedback, and see their final score after completing a set of questions.
 
 ## Features
 
-### Math Quiz
-- **Random Questions**: Generates random math problems.
-- **User Interaction**: Users input their answer and receive immediate feedback.
-- **Scoring**: Displays a score summary after completing a set of questions.
-- **Navigation**: Easy navigation back to the main menu.
-
-
+- **Random Math Questions**: The quiz generates random addition, subtraction, or multiplication problems.
+- **Interactive GUI**: A user-friendly interface that allows users to enter answers and navigate between screens.
+- **Immediate Feedback**: Users receive immediate feedback on each answer.
+- **Scoring**: Displays the user’s final score after a predetermined number of questions.
+- **Easy Navigation**: The application provides clear options to start the quiz or exit the application.
 
 ## Workflow
 
-1. **Main Menu**: Upon launching the application, users see the Main Menu where they can choose to take the Math Quiz, manage their expenses, or exit the program.
-2. **Math Quiz**: Users select the Math Quiz option to answer randomly generated math problems. They receive immediate feedback on their answers and see a final score summary after a set number of questions.
-3. **Expense Manager**: Users select the Expense Manager option to manage their expenses. They can add new expenses, edit or delete existing entries, and view a summary report of their expenses.
-4. **Navigation**: At any point, users can return to the Main Menu using the "Back to Main Menu" button provided in each module.
+1. **Main Menu**: Users are greeted by a Main Menu where they can choose to start the Math Quiz or exit the application.
+2. **Math Quiz**: 
+   - The quiz generates a series of random math questions.
+   - Users input their answers in the provided text field.
+   - The application provides immediate feedback on whether the answer is correct.
+   - After completing a set of questions, the final score is displayed.
+3. **Navigation**: Users can return to the Main Menu at any time.
 
+## Requirements
 
+- Java JDK 8 or later
+
+## How to Run
+
+1. Compile the project:
+   ```bash
+   javac Project.java
