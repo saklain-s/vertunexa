@@ -7,7 +7,6 @@ I am very happy to share my first task. Let me explain the workflow of my projec
 This Java project is a dual-functionality application built using Swing. It comprises two main modules:
 
 1. **Math Quiz Module**: Generates random math problems (addition, subtraction, or multiplication) and tests the user's arithmetic skills.
-2. **Expense Manager Module**: Allows users to add, edit, and delete expense entries through a user-friendly interface with enhanced navigation.
 
 ## Features
 
